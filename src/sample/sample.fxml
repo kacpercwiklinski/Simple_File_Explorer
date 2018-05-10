@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="513.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <SplitPane fx:id="sp" dividerPositions="0.26370757180156656" layoutY="29.0" prefHeight="484.0" prefWidth="768.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="29.0">
+         <items>
+            <ScrollPane fx:id="treeField" hbarPolicy="NEVER" prefHeight="511.0" prefWidth="194.0" vbarPolicy="ALWAYS" />
+            <ScrollPane fx:id="iconsField" hbarPolicy="NEVER" prefHeight="200.0" prefWidth="200.0" vbarPolicy="ALWAYS" />
+         </items>
+        </SplitPane>
+      <Text fx:id="pathText" layoutX="14.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="740.0" />
+    </children>
+</AnchorPane>
